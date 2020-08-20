@@ -15,8 +15,7 @@ spring:
 
 mybatis:
   type-aliases-package: club.dlblog.entity
-  mapper-locat
-  ions: classpath:mappers/*.xml
+  mapper-locations: classpath:mappers/*.xml
   configuration:
     map-underscore-to-camel-case: true
 mapper:
